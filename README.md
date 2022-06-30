@@ -1,2 +1,2 @@
 # dsa
-# List all the DSA algorithm worked
+# List all the DSA algorithms worked
