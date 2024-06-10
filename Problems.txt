@@ -189,7 +189,6 @@ private String sortStringByCharacterFrequency(String str){
     2 -> []
 }
 
-
 Locale -> Transalation
 Map<String(Locale), (Resource Bundle)Map<String(word), Value(transalation)>>
 
