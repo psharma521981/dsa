@@ -1,17 +1,9 @@
-package merge_interval;
+package src.merge_interval;
 
 import java.util.Arrays;
 import java.util.Iterator;
+import src.util.Interval;
 
-class Interval {
-    int start;
-    int end;
-
-    public Interval(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-};
 public class ConflictingAppointments {
     public static boolean canAttendAllAppointments(Interval[] intervals) {
 
