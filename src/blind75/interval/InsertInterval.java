@@ -1,6 +1,6 @@
 package src.blind75.interval;
 
-import src.util.Interval;
+import src.design_guru.util.Interval;
 
 import java.util.ArrayList;
 import java.util.Collections;

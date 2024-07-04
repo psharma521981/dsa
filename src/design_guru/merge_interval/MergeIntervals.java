@@ -1,6 +1,6 @@
-package src.merge_interval;
+package src.design_guru.merge_interval;
 
-import src.util.Interval;
+import src.design_guru.util.Interval;
 import java.util.*;
 
 //Validate the input

@@ -1,4 +1,4 @@
-package src.others.other_coading_problems;
+package src.strings.patterns.problems;
 
 import java.util.HashSet;
 import java.util.Set;

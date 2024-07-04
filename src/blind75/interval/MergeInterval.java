@@ -1,7 +1,7 @@
 package src.blind75.interval;
 
 import java.util.*;
-import src.util.Interval;
+import src.design_guru.util.Interval;
 
 ;
 /*
