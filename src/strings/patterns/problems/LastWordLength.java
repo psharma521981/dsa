@@ -1,4 +1,4 @@
-package src.others.other_coading_problems;
+package src.strings.patterns.problems;
 
 public class LastWordLength {
     public static void main(String args[]) {
