@@ -1,8 +1,7 @@
-package src.others.b_java;
+package src.miscellaneously.prectice.b_java;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class JavaStream {

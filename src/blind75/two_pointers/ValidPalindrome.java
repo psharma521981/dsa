@@ -1,4 +1,4 @@
-package blind75.two_pointers;
+package src.blind75.two_pointers;
 
 public class ValidPalindrome {
     public boolean isPalindrome(String s) {

@@ -3,6 +3,7 @@ package src.strings.patterns.problems;
 import java.util.HashSet;
 import java.util.Set;
 //https://vishalbhushan-53054.medium.com/string-segmentation-word-break-problem-fadbd4e40117
+
 public class StringSegmentation {
     public static boolean canSegmentString(String s, Set<String> dictionary) {
         for (int i = 1; i <= s.length(); ++i) {

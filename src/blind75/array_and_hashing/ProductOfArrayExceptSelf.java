@@ -10,7 +10,6 @@ public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int len = nums.length;
         int[] result = new int[len];
-        // ToDo: Write Your Code Here.
 
         if(nums == null || len < 1)
             return null;

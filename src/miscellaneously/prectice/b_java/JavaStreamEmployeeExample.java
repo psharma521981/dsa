@@ -1,4 +1,4 @@
-package src.others.b_java;
+package src.miscellaneously.prectice.b_java;
 
 import java.util.ArrayList;
 import java.util.List;

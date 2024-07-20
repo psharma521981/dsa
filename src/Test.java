@@ -88,8 +88,8 @@ Apple
  * Click `Run` to execute the snippet below!
  */
 
-import java.io.*;
-        import java.util.*;
+//import java.io.*;
+//        import java.util.*;
 
 /*
  * To execute Java, please define "static void main" on a class
@@ -104,18 +104,16 @@ class Solution {
         ArrayList<String> strings = new ArrayList<String>();
         strings.add("Hello, World!");
         strings.add("Welcome to CoderPad.");
-        strings.add("This pad is running Java " + Runtime.version().feature());
+        //  strings.add("This pad is running Java " + Runtime.version().feature());
 
         for (String string : strings) {
             System.out.println(string);
         }
     }
+}
 
-    public Map<Pair<String, String>, Integer> calculateOverlappingEvents(Event[] events, String videoId) {
-        /*
+  /*public Map<Pair<String, String>, Integer> calculateOverlappingEvents(Event[] events, String videoId) {
 
-
-         */
         //Validate
 
         if(events == null || events.length < 2)
@@ -160,25 +158,12 @@ class Solution {
     }
 }
 
+*/
 
 
-
-// Your previous Plain Text content is preserved below:
-
-// This is just a simple shared plaintext pad, with no execution capabilities.
-
-// When you know what language you'd like to use for your interview,
-// simply choose it from the dots menu on the tab, or add a new language
-// tab using the Languages button on the left.
-
-// You can also change the default language your pads are created with
-// in your account settings: https://app.coderpad.io/settings
-
-// Enjoy your interview!
-
-// // Datastructure design
 
 /*
+
 
 Event :
   {

@@ -1,4 +1,4 @@
-package blind75.sliding_windows;
+package src.blind75.sliding_window;
 
 public class BestTimeToBuyStocks {
     public int maxProfit(int[] prices) {

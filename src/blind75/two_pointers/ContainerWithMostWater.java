@@ -1,5 +1,15 @@
 package src.blind75.two_pointers;
+/*
+You are given an integer array heights where heights[i] represents the height of the
+i
+t
+h
+i
+th
+  bar.
 
+  You may choose any two bars to form a container. Return the maximum amount of water a container can store.
+ */
 public class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int maxArea = 0; // To store the maximum area found
