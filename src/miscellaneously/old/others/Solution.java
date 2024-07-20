@@ -22,9 +22,6 @@ public class Solution {
                 maxFrequency = f.getValue();
 
         }
-
-        return S.length() - maxFrequency;
-
     }
 
 }

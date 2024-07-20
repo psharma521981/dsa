@@ -29,7 +29,7 @@ public class CountPalindromes {
                 }
             }
         }
-
+    return inputWordsMap;
 
     }
 
