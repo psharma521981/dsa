@@ -1,8 +1,8 @@
-package sliding_windows;
+package src.design_guru.sliding_windows;
 
 public class Smallest_Subarray_With_a_Greater_Sum {
     public static int findMinSubArray(int S, int[] arr) {
-        // TODO: Write your code here
+
         if(arr==null || arr.length < 1)
             throw new IllegalArgumentException();
 
