@@ -3,7 +3,7 @@ package src.leetcode.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subsets_Recussive {
+public class Subsets_Recussive_78 {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> powerSet = new ArrayList<>();
         //Adding empty Set
@@ -22,7 +22,7 @@ public class Subsets_Recussive {
 
     public static void main(String s[]) {
         int[] nums = {1,2,3};
-        Subsets_Recussive subsets= new Subsets_Recussive();
+        Subsets_Recussive_78 subsets= new Subsets_Recussive_78();
         List<List<Integer>> powerSet = subsets.subsets(nums);
 
         for(List<Integer> list:powerSet) {

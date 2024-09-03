@@ -40,7 +40,7 @@ public class LetterCombinationsOfAPhoneNumber_17 {
     }
 
     public static void main(String[] b) {
-        List<String> output = new LetterCombinationsOfAPhoneNumber_17().letterCombinations("");
+        List<String> output = new LetterCombinationsOfAPhoneNumber_17().letterCombinations("2356");
         for(String s:output) {
             System.out.println("{"+s+"}");
         }
