@@ -4,34 +4,38 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateParentheses {
-    public static void main(String[] s){
-        int len =3;
-        List<String> output =new ArrayList<>();
-        char[] input = new char[2];
-            input[0] = '{';
-            input[1] = '}';
-        generateParenthisis(input,0,len,output,"");
-    }
+    public static void main(String[] s) {
+        int len = 4 * 2;
+        List<String> output = new ArrayList<>();
 
-    private static void generateParenthisis(char[] input,int len, List<String> output,String temp) {
-
-        if(temp.length() == len && isValidPattern(temp)) {
-            output.add(new String(temp));
+        generateParenthisis(0,0, len, output, "");
+        for(String st:output) {
+            System.out.println(st);
         }
-            temp = temp+input[0];
-            generateParenthisis(input,len,output,temp);
-            temp = temp.substring(0,temp.length()-1);
-            temp = temp+input[1];
-            generateParenthisis(input,len,output,temp);
-            temp = temp.substring(0,temp.length()-1);
+    }
+
+    private static void generateParenthisis(int leftCount, int rightCount, int len, List<String> output, String s) {
+
+    if(s.length() == len) {
+        if( (leftCount - rightCount) ==0) {
+            int left = leftCount;
+            int right = rightCount;
+            for(char c:s.toCharArray()) {
+                if(c =='{')
+                    left--;
+                else
+                    right--;
+                if(right < left)
+                    return;
+            }
+            output.add(s);
         }
-
-
+        return;
     }
-
-    private static boolean isValidPattern(String temp) {
-
+        s=s+"{";
+        generateParenthisis(leftCount+1 ,rightCount, len, output,s);
+        s=s.substring(0,s.length()-1);
+        s=s+"}";
+        generateParenthisis(leftCount ,rightCount+1, len, output,s);
     }
-
-
 }
