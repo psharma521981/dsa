@@ -1,4 +1,4 @@
-package blind75.two_pointers;
+package neetcode150.two_pointers;
 
 import java.util.ArrayList;
 import java.util.Arrays;

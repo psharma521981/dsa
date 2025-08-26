@@ -1,4 +1,4 @@
-package src.neetcode150.backtracking;
+package neetcode150.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;

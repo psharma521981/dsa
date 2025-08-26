@@ -1,4 +1,4 @@
-package src.neetcode150.backtracking;
+package neetcode150.backtracking;
 
 public class WordSearch {
     public static boolean exist(char[][] board, String word) {
