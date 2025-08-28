@@ -1,4 +1,6 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
+
+import design_guru.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -35,7 +37,7 @@ public class BinaryTreeLevelOrderTraversalBFS {
         return result;
     }
     public static void main(String[] args) {
-        BinaryTreeLevelOrderTraversalDFS sol = new BinaryTreeLevelOrderTraversalDFS();
+        neetcode150.trees.BinaryTreeLevelOrderTraversalDFS sol = new neetcode150.trees.BinaryTreeLevelOrderTraversalDFS();
         TreeNode root = new TreeNode(12);
         root.left = new TreeNode(7);
         root.right = new TreeNode(1);

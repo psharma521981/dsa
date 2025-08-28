@@ -2,10 +2,10 @@ package design_guru.tree;
 
 public class TreeNode {
         int data;
-        TreeNode left;
-        TreeNode right;
-        int val;
-        TreeNode(int val) {
+        public TreeNode left;
+        public TreeNode right;
+        public int val;
+        public TreeNode(int val) {
                 this.val = val;
         }
 }

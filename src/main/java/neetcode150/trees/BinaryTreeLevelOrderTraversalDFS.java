@@ -1,4 +1,6 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
+
+import design_guru.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

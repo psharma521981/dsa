@@ -1,4 +1,4 @@
-package tree;
+package design_guru.tree;
 
 import java.util.*;
 //Validate the input
