@@ -1,4 +1,4 @@
-package src.neetcode150.array_and_hashing;
+package neetcode150.array_and_hashing;
 
 import java.util.*;
 
