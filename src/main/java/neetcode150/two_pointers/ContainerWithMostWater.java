@@ -1,4 +1,4 @@
-package src.neetcode150.two_pointers;
+package neetcode150.two_pointers;
 /*
 You are given an integer array heights where heights[i] represents the height of the
 i

@@ -1,4 +1,4 @@
-package src.neetcode150.two_pointers.prectice;
+package neetcode150.two_pointers.prectice;
 
 public class Two_Integer_Sum_II {
     public int[] twoSum(int[] numbers, int target) {
