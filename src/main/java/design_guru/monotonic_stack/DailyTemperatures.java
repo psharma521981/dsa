@@ -1,4 +1,4 @@
-package monotonic_stack;
+package design_guru.monotonic_stack;
 
 import java.util.Arrays;
 import java.util.HashMap;
