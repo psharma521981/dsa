@@ -1,4 +1,4 @@
-package src.neetcode150.binary_search;
+package neetcode150.binary_search;
 
 /*
 You have an array of length n, which was initially sorted in ascending order. This array was then rotated x times. It is given that 1 <= x <= n. For example, if you rotate [1, 2, 3, 4] array 3 times, resultant array is [2, 3, 4, 1].

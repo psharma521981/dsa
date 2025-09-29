@@ -1,4 +1,4 @@
-package src.neetcode150.binary_search;
+package neetcode150.binary_search;
 /*
 
 Given an array of numbers which is sorted in ascending order and also rotated by some arbitrary number, find if a given ‘key’ is present in it.
