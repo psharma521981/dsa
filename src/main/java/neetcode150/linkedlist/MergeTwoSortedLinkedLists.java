@@ -1,4 +1,4 @@
-package src.neetcode150.linkedlist;
+package neetcode150.linkedlist;
 
 public class MergeTwoSortedLinkedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

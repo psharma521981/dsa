@@ -1,4 +1,4 @@
-package src.neetcode150.linkedlist;
+package neetcode150.linkedlist;
 
 public class RemoveNthNodeFromEndOfList {
     public static ListNode removeNth(ListNode head, int n) {

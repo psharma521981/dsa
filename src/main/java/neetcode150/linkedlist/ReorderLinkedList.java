@@ -1,4 +1,4 @@
-package src.neetcode150.linkedlist;
+package neetcode150.linkedlist;
 
 
 
