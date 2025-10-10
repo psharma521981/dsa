@@ -1,6 +1,6 @@
-package src.design_guru.merge_interval;
+package design_guru.merge_interval;
 
-import src.design_guru.util.Interval;
+import design_guru.util.Interval;
 
 import java.util.ArrayList;
 import java.util.Iterator;

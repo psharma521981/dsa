@@ -1,4 +1,4 @@
-package src.neetcode150.interval;
+package neetcode150.interval;
 
 public class Meeting {
         int start;

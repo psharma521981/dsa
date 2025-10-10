@@ -1,4 +1,4 @@
-package src.neetcode150.interval;
+package neetcode150.interval;
 
 import java.util.*;
 
@@ -9,15 +9,15 @@ Output: 2
 
  */
 public class MeetingRooms {
-    public int findMinimumMeetingRooms(List<Meeting> meetings) {
+    public int findMinimumMeetingRooms(List<neetcode150.interval.Meeting> meetings) {
         int minRooms = 0;
 
-        if(meetings==null || meetings.size() < 1)
+        if(meetings==null || meetings.isEmpty())
             return minRooms;
 
-        Collections.sort(meetings,(a, b) -> Integer.compare(a.start, b.start));
+        meetings.sort((a, b) -> Integer.compare(a.start, b.start));
 
-        PriorityQueue<Meeting> meetingRoom = new PriorityQueue<>((a,b) -> Integer.compare(a.end, b.end));
+        PriorityQueue<neetcode150.interval.Meeting> meetingRoom = new PriorityQueue<>((a, b) -> Integer.compare(a.end, b.end));
 
         for(Meeting meeting : meetings ) {
             while(!meetingRoom.isEmpty() && meetingRoom.peek().end <= meeting.start) {

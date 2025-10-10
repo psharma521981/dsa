@@ -1,6 +1,6 @@
-package src.neetcode150.interval;
+package neetcode150.interval;
 
-import src.design_guru.util.Interval;
+import design_guru.util.Interval;
 
 import java.util.ArrayList;
 import java.util.Collections;

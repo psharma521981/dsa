@@ -1,8 +1,8 @@
-package src.design_guru.merge_interval;
+package design_guru.merge_interval;
 
 import java.util.Arrays;
 import java.util.Iterator;
-import src.design_guru.util.Interval;
+import design_guru.util.Interval;
 
 public class ConflictingAppointments {
     public static boolean canAttendAllAppointments(Interval[] intervals) {

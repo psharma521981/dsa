@@ -1,4 +1,4 @@
-package src.design_guru.sliding_windows;
+package design_guru.sliding_windows;
 
 public class Smallest_Subarray_With_a_Greater_Sum {
     public static int findMinSubArray(int S, int[] arr) {

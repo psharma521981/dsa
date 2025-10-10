@@ -1,4 +1,4 @@
-package src.design_guru.util;
+package design_guru.util;
 
 public class Interval {
     public int start;
