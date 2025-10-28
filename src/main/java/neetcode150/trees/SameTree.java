@@ -1,4 +1,6 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
+
+import neetcode150.trees.prectice.TreeNode;
 
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {

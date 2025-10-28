@@ -1,8 +1,6 @@
-package neetcode150.trees;
+package neetcode150.trees.prectice;
 
-import neetcode150.trees.prectice.TreeNode;
-
-public class MaximumDepthOfBinaryTree {
+public class MaxDepthOfBinaryTree {
     int maxPath = 0;
     public int maxDepth(TreeNode root) {
 
