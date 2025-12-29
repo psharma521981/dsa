@@ -21,6 +21,6 @@ Output: [[2,2,5],[9]]
  */
 public class CombinationSum {
     public List<List<Integer>> combinationSum(int[] nums, int target) {
-
+        return null;
     }
 }
