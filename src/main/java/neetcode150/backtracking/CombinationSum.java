@@ -3,30 +3,48 @@ package neetcode150.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+You are given an array of distinct integers nums and a target integer target. Your task is to return a list of all unique combinations of nums where the chosen numbers sum to target.
+
+The same number may be chosen from nums an unlimited number of times. Two combinations are the same if the frequency of each of the chosen numbers is the same, otherwise they are different.
+
+You may return the combinations in any order and the order of the numbers in each combination can be in any order.
+
+Example 1:
+
+Input:
+nums = [2,5,6,9]
+target = 9
+
+Output: [[2,2,5],[9]]
+ */
 public class CombinationSum {
+    List<List<Integer>> output = new ArrayList<>();
+
     public List<List<Integer>> combinationSum(int[] nums, int target) {
 
-        List<List<Integer>> output = new ArrayList<>();
-        List<Integer> tempCobnation = new ArrayList<>();
-        generateCombination(tempCobnation,output,nums,0,target, 0);
+        if(nums == null)
+            return output;
+
+        generateCombination(nums,target,0,new ArrayList<>());
+
         return output;
     }
 
-    private void generateCombination(List<Integer> tempCobnation, List<List<Integer>> output,
-                                     int[] nums, int i, int target, int tmpSum) {
+    public void generateCombination(int[] nums,int target,int index,List<Integer> combination) {
 
-        if (tmpSum==target) {
-            output.add(new ArrayList<>(tempCobnation));
+        if(target < 0 || index >= nums.length) {
             return;
         }
-        if (tmpSum > target) {
+        if(0 == target) {
+            output.add(new ArrayList<>(combination));
             return;
         }
 
-        tempCobnation.add(nums[i]);
-        tmpSum+=nums[i];
-        generateCombination(tempCobnation,output,nums,i,target, tmpSum);
-        generateCombination(tempCobnation,output,nums,i+1,target, tmpSum);
+        combination.add(nums[index]);
+        generateCombination(nums,target - nums[index],index,combination);
+        combination.remove(combination.size() - 1);
+        generateCombination(nums,target,index + 1,combination);
 
     }
 

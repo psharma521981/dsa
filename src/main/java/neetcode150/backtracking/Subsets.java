@@ -2,27 +2,39 @@ package neetcode150.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
+/*
+Given an array nums of unique integers, return all possible subsets of nums.
 
+The solution set must not contain duplicate subsets. You may return the solution in any order.
+
+Example 1:
+
+Input: nums = [1,2,3]
+
+Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+ */
 public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
+
         List<List<Integer>> output = new ArrayList<>();
 
-        List<Integer> tmp =new ArrayList<>();
-        generateSubset(nums,output,tmp,0);
+        if(nums ==null)
+            return output;
 
+
+        subsets(output,0,new ArrayList<>(),nums);
         return output;
     }
 
-    private void generateSubset(int[] nums, List<List<Integer>> output,List<Integer> tmp, int i) {
+    private void subsets(List<List<Integer>> output, int i, List<Integer> list,int[] nums) {
 
-            if(i == nums.length) {
-                output.add(new ArrayList<>(tmp));
-               return;
-            }
+        if(i == nums.length) {
+            output.add(new ArrayList<>(list));
+        }
 
-        tmp.add(nums[i]);
-        generateSubset(nums,output,tmp,i+1);
-        tmp.remove(tmp.size()-1);
-        generateSubset(nums,output,tmp,i+1);
+        list.add(i);
+        subsets(output,i + 1,list,nums);
+        list.remove(list.size() -1);
+        subsets(output,i + 1,list,nums);
     }
 }
