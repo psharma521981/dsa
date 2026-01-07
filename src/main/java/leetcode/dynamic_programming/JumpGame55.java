@@ -2,7 +2,7 @@ package leetcode.dynamic_programming;
 
 import java.util.Arrays;
 
-public class JumpGame {int[] memoization;
+public class JumpGame55 {int[] memoization;
     public boolean canJump(int[] nums) {
 
         memoization = new int[nums.length];

@@ -2,7 +2,7 @@ package leetcode.dynamic_programming;
 
 import java.util.Arrays;
 
-public class HouseRobber {
+public class HouseRobber198 {
     int[] memoization;
     public int rob(int[] nums) {
         memoization = new int[nums.length];

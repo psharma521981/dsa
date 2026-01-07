@@ -3,7 +3,7 @@ package leetcode.dynamic_programming;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ClimbStairs {
+public class ClimbStairs_70 {
     //Bottom down approach
     Map<Integer,Integer> memoization;
     public int climbStairs(int n) {
