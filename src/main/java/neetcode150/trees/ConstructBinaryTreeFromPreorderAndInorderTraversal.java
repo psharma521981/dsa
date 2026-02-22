@@ -1,4 +1,4 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
 
 import java.util.HashMap;
 import java.util.Map;
