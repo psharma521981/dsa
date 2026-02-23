@@ -1,4 +1,4 @@
-package two_pointers;
+package design_guru.two_pointers;
 
 public class Dutch_National_Flag_Problem {
     public static int[] sort(int[] arr) {
