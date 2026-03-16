@@ -1,4 +1,4 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
 
 public class PathWithMaximumSum {
     private static int globalMaximumSum;

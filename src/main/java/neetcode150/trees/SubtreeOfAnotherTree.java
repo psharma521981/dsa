@@ -1,4 +1,4 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
 
 //Match the both tree for every node in parent tree
 //

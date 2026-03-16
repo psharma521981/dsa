@@ -1,4 +1,4 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
 
 public class ValidateBinarySearchTree {
    /* public boolean isValidBST(TreeNode root) {

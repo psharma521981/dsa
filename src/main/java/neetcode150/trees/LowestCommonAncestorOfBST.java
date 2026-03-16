@@ -1,4 +1,4 @@
-package src.neetcode150.trees;
+package neetcode150.trees;
 
 public class LowestCommonAncestorOfBST {
     public int lowestCommonAncestor(TreeNode root, int p, int q) {
