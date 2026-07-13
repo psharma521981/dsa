@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.java.prep;
 
 import java.util.*;
 import java.util.stream.Collectors;

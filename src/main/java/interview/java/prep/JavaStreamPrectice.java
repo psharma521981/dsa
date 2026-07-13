@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.java.prep;
 
 import java.util.Arrays;
 import java.util.List;

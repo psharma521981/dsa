@@ -1,4 +1,4 @@
-package src.strings.patterns.problems;
+package strings.patterns.problems;
 
 public class LastWordLength {
     public static void main(String args[]) {

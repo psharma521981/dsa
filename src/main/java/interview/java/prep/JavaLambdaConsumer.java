@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.java.prep;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;

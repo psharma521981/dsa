@@ -1,4 +1,4 @@
-package src.neetcode150.array_and_hashing.prectice;
+package neetcode150.array_and_hashing.prectice;
 
 import java.util.ArrayList;
 import java.util.List;

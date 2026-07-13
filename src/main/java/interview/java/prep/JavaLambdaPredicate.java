@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.java.prep;
 import java.util.function.Predicate;
 
 public class JavaLambdaPredicate {
